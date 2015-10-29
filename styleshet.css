@@ -1,0 +1,179 @@
+-
+/*=============for a cellphone screen===============*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {}
+
+body {
+    background-color: #B40404;
+}
+
+a {
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    color: #0404B4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009eff;
+}
+
+.mainnav {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Bree Serif', serif;
+    /*align: left;*/
+    list-style: none;
+    background-color: bisque;
+    align-content: center;
+    text-align: center;
+}
+
+.masthead {
+    font-size: 1.25rem
+}
+
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 29rem;
+    font-family: 'Droid Serif', serif;
+    /*align-content: center;*/
+}
+
+h2 {
+    font-size: 1.55rem;
+    font-family: 'Droid Serif', serif;
+}
+
+h3 {
+    font-size: 1.55rem;
+    font-family: font-family: 'Droid Serif', serif;
+    padding: 1em .5em
+}
+
+.wrapper {
+    align-content: center;
+    width: 95%;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.primary {
+    background-color: rgba(194, 168, 66, 0.96);
+    padding: 2rem 1rem;
+    font-family: 'Droid Serif', serif;
+    font-size: 1.3rem;
+    margin: .25rem .25rem;
+    padding: .25rem .5rem 1rem .5rem;
+    box-sizing:
+}
+
+.side {
+    font-family: 'Droid Serif', serif;
+    font-size: 1.3rem;
+    background-color: rgba(194, 168, 66, 0.96);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    padding: .35rem;
+    font-size: 1.25rem;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-style: italic;
+    fo-color: black;
+    background-color: #7F7F7F;
+    clear: both;
+}
+
+
+/* ============================= for tablet screen ================================== */
+
+@media screen and (min-width:35em) and (max-width:60em) {
+    .masthead {
+        width: 100%;
+    }
+    .mainnav {
+        width: 100%;
+    }
+    .mainnav ul {
+        width: 100%;
+    }
+    .mainnav ul li {
+        float: left;
+        width: 25%;
+        background-color: purple;
+    }
+    .mainnav li a {
+        display: block;
+        background-color: gold;
+    }
+    .content {
+        float: left;
+        width: 63%;
+    }
+    .side {
+        float: right;
+        width: 37%;
+    }
+    .footer {
+        width: 100%;
+        clear: both;
+    }
+}
+
+
+/* =====================for a desktop screen ====================================================== */
+
+@media screen and (min-width:60em) {
+    .masthead {
+        width: 100%;
+    }
+    .mainnav {
+        float: left;
+        width: 25%;
+    }
+    .primary {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 15px;
+        -moz-column-gap: 15px;
+        column-gap: 15px;
+    }
+    .content {
+        width: 50%;
+        float: left;
+    }
+    img {
+        border*/ height: auto;
+    }
+    .side {
+        float: right;
+        width: 25%;
+    }
+    .footer {
+        width: 100%
+    }
+}
